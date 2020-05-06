@@ -1,0 +1,123 @@
+.team-clean {
+  color: #313437;
+  background-color: #fff;
+}
+
+.team-clean p {
+  color: #7d8285;
+}
+
+.team-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: white;
+}
+
+@media (max-width:767px) {
+  .team-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+}
+.team-round {
+  margin-bottom: 0px;
+  }
+.team-round .profile {
+  margin: auto;
+  background: transparent;
+ 
+  border-radius: 100px;
+  
+  width: 155px;
+  height: 155px;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+}
+.team-round .profile:before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  bottom: 0px;
+  width: 3px;
+  height: 89px;
+  
+}
+.team-round .profile .img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  
+  border-radius: 100px;
+  margin:  auto;
+}
+.team-round .profile .img img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.team-round .team-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  color: white;
+  margin-top: 20px;
+  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.team-round span {
+  display: block;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  color: white;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .3s ease;
+background-color: black;
+}
+
+.profile:hover .overlay {
+opacity: 0.8;
+}
+#teamicon {
+color: white;
+font-size: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.fa-linkedin:hover {
+color: white;
+}
+#teamtitle{
+  color: #d0d0d0;
+  font-size:13px ;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Riddle</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/riddle.css">
+
+</head>
+<body>
+
+    <img src="images/ABC LOGO white.png"  class="abclogo">
+    <img src="images/Radiate Logo White.png" class="jiglogo">
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><img src="images/team.gif">    Team name</a>
+  <a href="#"><img src="images/score.gif">    Score</a>
+  <a href="index.html"><img src="images/log out.gif">   Log out</a>
+
+</div>
+
+
+<span style="font-size:30px;cursor:pointer;float:right;" onclick="openNav()"><i class="fa fa-fw fa-user-circle" style="color: white;"></i>  </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div class="center-div">
+<h1>Your Riddle</h1>
+<h2>blablablablablablalalalalal</h2>
+<form action="">
+    <input class="increasing-area" type="textarea" value="Your answer" name="answer"><br><br>
+    <button class="submit"><a href="congrats.html"style="text-decoration: none;color:white;">Submit</a></button>
+</form>
+</div>
+
+
+   
+</body>
+</html> 

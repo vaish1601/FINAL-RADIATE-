@@ -1,0 +1,99 @@
+.accordion-control {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+  background-color: #3e8ce4;
+  color: #f7f5f5;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  position: relative;
+}
+
+.li {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.accordion-control:hover {
+  background-color: #68d2ff;
+  box-shadow: #180ee6 0 0 15px;
+}
+
+.portfolio-hover {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  z-index: -1;
+}
+
+.img-fluid under {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .text-center {
+    /*text-align: left!important;*/
+  }
+}
+
+.text-justify {
+  text-align: left!important;
+}
+
+.flex-shrink-1 {
+  will-change: transform;
+  transform: perspective(300px) rotateX(3.5deg) rotateY(0.61deg) scale3d(1, 1, 1);
+}
+
+.collapse {
+  padding: 10px;
+}
+
+a:hover {
+  color: #f7f9fb;
+}
+
+a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #5fbaf9;
+}
+
+@media (min-width: 300px) {
+  .text-justify {
+    font-size: 15px;
+    width: 90%;
+    padding: 5px;
+    font-family: Montserrat, sans-serif;
+    color: #959ca7;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-xl-5 {
+    -ms-flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+}
+.dname{
+  border-bottom: 1px solid white;
+  line-height:4em;
+  box-shadow:#081EE6 0px 2px;
+}

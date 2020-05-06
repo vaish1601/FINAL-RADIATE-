@@ -1,0 +1,327 @@
+
+body{
+    font-family: sans-serif;
+    background-image:radial-gradient(#050B2C 0%, #000000 100%);
+    margin:auto;
+}
+.mainlogo{
+   margin-left: 8%;
+   margin-right: 8%;
+    margin-bottom: 5%;
+   display: inline-block;
+}
+
+.container{
+    
+    padding: 4%;
+    width:80%;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-right: 6%;
+    border-right: 1px solid  rgb(165, 176, 235);
+        border-left: 1px solid    rgb(165, 176, 235);
+        border-top: 1px solid    rgb(165, 176, 235);
+        border-bottom: 1px solid  rgb(165, 176, 235);
+    box-shadow: 0 0 1px rgb(0,42,255), 0 0 2px rgb(0,42,255), 0 0 6px rgb(0,42,255), 0 0 12px rgb(0,42,255), inset 0 0 2px rgb(0,42,255), inset 0 0 6px rgb(0,42,255), inset 0 0 12px rgb(0,42,255);
+   
+    
+    
+}
+.log-in{
+    color:white;
+    
+    text-align: center;   
+}
+h1{
+    text-align: center;
+}
+label{
+    color: white;
+    margin-left: 6px;
+}
+input[type=text]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+    opacity: 0.66;
+    display: inline-block;
+}
+input[type=password]{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #C4C4C4;
+    opacity: 0.66;
+    display: inline-block;
+}
+input[type=checkbox]{
+    margin-left: 4px;
+}
+.nextlink  {
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 8%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  .nextlink:hover{
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    margin-left: 8%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+.nextlink:focus{
+    opacity: 0.5;
+    text-decoration: none;
+}
+  .forgot{
+      margin-left: 30%;
+      color: white;
+      opacity: 0.5;
+  }
+  .forgot:hover{
+      opacity: 1;
+  }
+  @media screen and (min-width:756px){
+    body{
+        background-image: url(../images/ipad bg.png)!important;
+        background-size: cover;
+        background-repeat: none;
+    }
+    .mainlogo{
+        margin-left: 30%;
+    }
+}
+@media screen and (min-width:1000px){
+  body{
+      background-image: url(../images/ipad bg.png)!important;
+      background-size: cover;
+      background-repeat: none;
+  }
+  .mainlogo{
+    margin-top:10%;
+    margin-left: 35%;
+    margin-bottom: 7%;
+ 
+ 
+  }
+  
+  .container{
+      width: 424px;
+      margin-top: 10%;
+      margin-left: 24%;
+      display: inline-block; 
+      border-right: 1px solid  rgb(165, 176, 235);
+      border-left: 1px solid    rgb(165, 176, 235);
+      border-top: 1px solid    rgb(165, 176, 235);
+      border-bottom: 1px solid  rgb(165, 176, 235);
+      padding: 4%;
+      box-shadow: 0 0 1px rgb(0,42,255), 0 0 2px rgb(0,42,255), 0 0 6px rgb(0,42,255), 0 0 12px rgb(0,42,255), inset 0 0 2px rgb(0,42,255), inset 0 0 6px rgb(0,42,255), inset 0 0 12px rgb(0,42,255);
+     
+      
+      
+  }
+  .log-in{
+      color:white; 
+      text-align: center;
+     
+  }
+  h1{
+      text-align: center;
+  }
+  label{
+      color: white;
+  }
+  input[type=text]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: #C4C4C4;
+      opacity: 0.66;
+      display: inline-block;
+  }
+  input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background: #C4C4C4;
+      opacity: 0.66;
+      display: inline-block;
+  }
+  .nextlink  {
+      width: 70%;
+      background-color: black;
+      color: white;
+      padding: 14px 20px;
+      margin: 5px 0;
+      margin-left: 8%;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+    }
+    .nextlink:hover{
+      width: 70%;
+      background-color: black;
+      color: white;
+      padding: 14px 20px;
+      margin: 5px 0;
+      margin-left: 8%;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+    .forgot{
+        margin-left: 30%;
+        color: white;
+        opacity: 0.5;
+    }
+    .forgot:hover{
+        opacity: 1;
+    }
+}
+  
+  @media screen and (min-width:1200px){
+    body{
+        font-family: sans-serif;
+        background-image:radial-gradient(#050B2C 0%, #000000 100%);
+        background-image: url('../images/circuit bg.png')!important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin:auto;
+        
+    }
+    .mainlogo{
+      margin-top:5%;
+      margin-left: 40%;
+      margin-bottom: 1%;
+    display: inline-block;
+    }
+    
+    .container{
+        width: 324px;
+        margin-left: 35%;
+        margin-top: 1%;
+        display: inline-block; 
+        border-right: 1px solid  rgb(165, 176, 235);
+        border-left: 1px solid    rgb(165, 176, 235);
+        border-top: 1px solid    rgb(165, 176, 235);
+        border-bottom: 1px solid  rgb(165, 176, 235);
+        padding: 4%;
+        box-shadow: 0 0 1px rgb(0,42,255), 0 0 2px rgb(0,42,255), 0 0 6px rgb(0,42,255), 0 0 12px rgb(0,42,255), inset 0 0 2px rgb(0,42,255), inset 0 0 6px rgb(0,42,255), inset 0 0 12px rgb(0,42,255);
+       
+        
+        
+    }
+    .log-in{
+        color:white; 
+        text-align: center;
+       
+    }
+    h1{
+        text-align: center;
+    }
+    label{
+        color: white;
+    }
+    input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #C4C4C4;
+        opacity: 0.66;
+        display: inline-block;
+    }
+    input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #C4C4C4;
+        opacity: 0.66;
+        display: inline-block;
+    }
+    .nextlink  {
+        width: 70%;
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0;
+        margin-left: 8%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+      }
+      .nextlink:hover{
+        width: 70%;
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0;
+        margin-left: 8%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        opacity: 0.5;
+        text-decoration: none;
+      }
+      .forgot{
+          margin-left: 30%;
+          color: white;
+          opacity: 0.5;
+      }
+      .forgot:hover{
+          opacity: 1;
+      }
+  }
